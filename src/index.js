@@ -3,15 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Counter from './Components/Counter';
+import ChoseLanguageProgaming from './Components/ChoseLanguageProgaming';
+import Clock from './Components/Clock';
+import CarGarage from './Components/CarGarage';
+import Timer from './Components/Timer';
+import CounterNumber from './Components/CounterNumber';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// root.render(<Counter/>);
+// root.render(<ChoseLanguageProgaming/>);
+// root.render(<Clock/>)
+ root.render(<CarGarage/>);
+// root.render(<Timer/>);
+//root.render(<CounterNumber/>);
